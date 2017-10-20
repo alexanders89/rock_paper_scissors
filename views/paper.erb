@@ -1,0 +1,12 @@
+<h1><%="#{$player_1} chose Paper"%></h1>
+<% computer = ["Rock", "Paper", "Scissors"].sample %>
+<h1><%="Computer chose #{computer}"%></h1>
+
+<h2><%="Congrats you won!" if computer == "Rock" %><h2>
+<h2><%="You lost!" if computer == "Scissors" %><h2>
+<h2><%="Its a draw" if computer == "Paper" %><h2>
+
+  <form action="/play" method="post">
+      Play again?
+    <input type="submit" value="Yes">
+  </form>

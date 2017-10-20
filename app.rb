@@ -17,6 +17,23 @@ class RPS < Sinatra::Base
     erb(:play)
   end
 
+  post '/play' do
+    erb(:play)
+  end
+
+  post '/rock' do
+    erb(:rock)
+  end
+
+  post '/paper' do
+    erb(:paper)
+  end
+
+  post '/scissors' do
+    erb(:scissors)
+  end
+
+
   run! if app_file == $0
 
 end
