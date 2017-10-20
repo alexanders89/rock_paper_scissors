@@ -1,7 +1,49 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/alexsatur/Desktop/rock_paper_scissors/app.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/alexsatur/Desktop/rock_paper_scissors/spec/features/names_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/alexsatur/Desktop/rock_paper_scissors/spec/features/testing_infrastructure_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
     },
-    "timestamp": 1508410118
+    "timestamp": 1508492516
   }
 }
